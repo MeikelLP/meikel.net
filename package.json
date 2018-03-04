@@ -7,7 +7,7 @@
     "build": "node node_modules/gulp/bin/gulp.js"
   },
   "author": "Meikel Philipp",
-  "license": "ISC",
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "yarn": "^1.5.1"
