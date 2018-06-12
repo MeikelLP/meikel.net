@@ -12,8 +12,9 @@ echo "Build started @ "$dateTime
 )
 
 # upload build via FTP
-ftp -invp $TARGET_HOST << END_SCRIPT
-  user $TARGET_USER $TARGET_PASS
+ftp -n $TARGET_HOST << END_SCRIPT
+  quote USER $TARGET_USER 
+  quote PASS $TARGET_PASS
 
   lcd $CI_PROJECT_DIR/dist
 
