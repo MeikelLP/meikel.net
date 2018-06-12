@@ -1,0 +1,20 @@
+image: kkarczmarczyk/node-yarn:latest
+
+stages:
+- deploy
+  
+# Cache modules in between jobs
+cache:
+  key: ${CI_COMMIT_REF_SLUG}
+  paths:
+  - node_modules/
+
+deploy_production:
+  stage: deploy
+  script:
+  - sh publish.sh
+  environment:
+    name: production
+    url: https://meikellp.de
+  only:
+  - development

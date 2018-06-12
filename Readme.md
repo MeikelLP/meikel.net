@@ -7,11 +7,20 @@ This package includes the source code of the website https://meikellp.de/
 ## Requirements
 
 * Node.js
+* [Yarn](https://yarnpkg.com/)
 
 ## Getting started
 
+### Start dev server
+
 ``` bash
-npm i -g yarn
 yarn
-npm run build
+yarn serve
+```
+
+### Build from source
+
+``` bash
+yarn
+yarn build
 ```
