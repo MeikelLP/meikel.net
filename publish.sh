@@ -12,7 +12,7 @@ echo "Build started @ "$dateTime
 )
 
 # upload build via FTP
-ftp -n $TARGET_HOST << END_SCRIPT
+ftp -invp $TARGET_HOST << END_SCRIPT
   quote USER $TARGET_USER 
   quote PASS $TARGET_PASS
 
@@ -59,7 +59,5 @@ ftp -n $TARGET_HOST << END_SCRIPT
   # End FTP Connection
   bye
 END_SCRIPT
-
-
 
 echo "Build finished @ "`date +%Y-%m-%d_%H-%M-%S`
