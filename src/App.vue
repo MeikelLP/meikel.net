@@ -1,30 +1,22 @@
 <template>
   <div id="app">
-    <header class="header">
-      <hello-world/>
-      <intro/>
-      <contact-info/>
-    </header>
-    <body-nav></body-nav>
+    <head-info></head-info>
     <body-comp></body-comp>
+    <foot></foot>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/Navbar'
-import Intro from './components/Intro'
-import ContactInfo from './components/ContactInfo'
-import BodyNav from './components/BodyNav'
-import BodyComp from './components/Body'
+import HeadInfo from './components/Head/Index'
+import BodyComp from './components/Body/Index'
+import Foot from './components/Foot'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld,
-    Intro,
-    ContactInfo,
-    BodyNav,
-    BodyComp
+    HeadInfo,
+    BodyComp,
+    Foot
   }
 }
 </script>

@@ -1,29 +1,40 @@
 <template>
-
-  <section id="experiences-section" class="experiences-section section">
-    <h2 class="section-title">Arbeitserfahrung</h2>
-    <div class="timeline">
-
-      <div class="item">
-        <div class="work-place">
-          <h3 class="place">velian GmbH</h3>
-          <div class="location hidden-xs">
-            <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
-            <a href="https://www.google.com/maps?q=velian GmbH" target="_blank">Braunschweig, Frankfurter Straße 4</a>
+  <section id="experiences-section" class="section">
+    <div class="columns">
+      <div class="column">
+        <h4 class="title is-4">Professionelle Arbeitserfahrung</h4>
+        <div class="timeline">
+          <div class="timeline-header">
+            <span class="tag is-medium is-primary">Heute</span>
           </div>
+          <event :event="event" v-for="event in events.professional" :key="event.date"/>
         </div>
-        <div class="job-meta">
-          <div class="title">Softwareentwickler in Ausbildung</div>
-          <div class="time">2015 - heute</div>
-        </div>
-        <div class="job-desc">
-          <ul>
-            <li>MVC5 C# / WebForms Visual Basic</li>
-            <li>Java Desktop Anwendungen</li>
-            <li>MSSQL & MySQL</li>
-          </ul>
+      </div>
+      <div class="column">
+        <h4 class="title is-4">Hobby Erfahrung</h4>
+        <div class="timeline">
+          <div class="timeline-header">
+            <span class="tag is-medium is-primary">Heute</span>
+          </div>
+          <event :event="event" v-for="event in events.hobby" :key="event.date"/>
         </div>
       </div>
     </div>
   </section>
 </template>
+
+<script>
+import Event from '../Common/Event'
+import { events } from '../../configs/data.json'
+
+export default {
+  components: {
+    Event
+  },
+  data () {
+    return {
+      events: events
+    }
+  }
+}
+</script>

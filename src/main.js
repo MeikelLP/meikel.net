@@ -6,7 +6,6 @@ import brands from '@fortawesome/fontawesome-free-brands'
 import freeSolid from '@fortawesome/fontawesome-free-solid'
 import FontAwesomeIcon from '@fortawesome/vue-fontawesome'
 
-import 'bootstrap/less/bootstrap.less'
 import './styles/main.sass'
 
 Vue.config.productionTip = false

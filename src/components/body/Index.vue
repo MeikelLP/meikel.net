@@ -1,18 +1,17 @@
 <template>
-  <div class="wrapper container">
+  <div class="container">
     <time-line></time-line>
     <skills></skills>
   </div>
 </template>
 
 <script>
-import TimeLine from './body/TimeLine.vue'
-import Skills from './body/Skills.vue'
+import TimeLine from './TimeLine'
+import Skills from './Skills'
 
 export default {
   components: {
-    TimeLine,
-    Skills
+    TimeLine, Skills
   }
 }
 </script>
