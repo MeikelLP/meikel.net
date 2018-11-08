@@ -13,6 +13,6 @@ Vue.config.productionTip = false
 fontawesome.library.add(brands, freeSolid)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
-new Vue({
+export const VueInstance = new Vue({
   render: h => h(App)
 }).$mount('#app')

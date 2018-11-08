@@ -1,22 +1,13 @@
-image: kkarczmarczyk/node-yarn:latest
-
-stages:
-- deploy
-  
-# Cache modules in between jobs
-cache:
-  key: ${CI_COMMIT_REF_SLUG}
-  paths:
-  - node_modules/
-
-deploy_production:
-  before_script:
-  - apt-get install lftp
+pages: # the job must be named pages
+  image: node:latest
   stage: deploy
   script:
-  - sh publish.sh
-  environment:
-    name: production
-    url: https://meikellp.de
+    - npm ci
+    - npm run build
+    - mv public public-vue # GitLab Pages hooks on the public folder
+    - mv dist public # rename the dist folder (result of npm run build)
+  artifacts:
+    paths:
+      - public # artifact path must be /public for GitLab Pages to pick it up
   only:
-  - development
+    - master
