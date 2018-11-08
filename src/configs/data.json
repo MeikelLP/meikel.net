@@ -1,0 +1,296 @@
+{
+  "person": {
+    "fullname": "Meikel Philipp",
+    "title": "Systemanalytiker / Programmierer",
+    "description": "Ich bin ein Auszubildener Fachinformatiker für Anwendungsentwicklung bei der velian GmbH. Ich programmiere Hauptsächlich mit dem .NET Framework in C#. Außerdem bin ich Leidenschaftlicher Gamer."
+  },
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/meikellp",
+      "icon": [
+        "fab",
+        "twitter"
+      ]
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/meikellp",
+      "icon": [
+        "fab",
+        "github"
+      ]
+    },
+    {
+      "name": "Gitlab",
+      "url": "https://gitlab.com/MeikelLP",
+      "icon": [
+        "fab",
+        "gitlab"
+      ]
+    },
+    {
+      "name": "Steam",
+      "url": "http://steamcommunity.com/id/IdeMeikel",
+      "icon": [
+        "fab",
+        "steam"
+      ]
+    },
+    {
+      "name": "Stackoverflow",
+      "url": "https://stackoverflow.com/users/8321861/meikel?tab=profile",
+      "icon": [
+        "fab",
+        "stack-overflow"
+      ]
+    }
+  ],
+  "events": {
+    "professional": [
+      {
+        "role": "Systemanalytiker",
+        "company": "Neos IT GmbH",
+        "iconPath": "icons/neos-it-icon.png",
+        "date": "2018-08-01",
+        "jobs": [
+          "Entwickeln einer Simulationsvisualisierung in Unity3D im Bereich Automotive"
+        ],
+        "tags": [
+          {
+            "label": "Unity3D",
+            "color": "black"
+          },
+          {
+            "label": "C#",
+            "color": "success"
+          }
+        ]
+      },
+      {
+        "role": "Auszubildener (Fachinformatiker Anwendungsentwicklung)",
+        "company": "velian GmbH",
+        "iconPath": "icons/velian-icon.png",
+        "date": "2015-07-01",
+        "jobs": [
+          "Entwickeln einer Enterprise Softwarelösung zum Verfolgen von Fehlern (Issue Tracker)",
+          "Warten einer legacy Issue Tracker Software",
+          "Entwickeln einer spezalisierten Excel Viewer Software"
+        ],
+        "tags": [
+          {
+            "label": "MVC5",
+            "color": "black"
+          },
+          {
+            "label": "WebForms",
+            "color": "danger"
+          },
+          {
+            "label": "C#",
+            "color": "success"
+          },
+          {
+            "label": "Java FX",
+            "color": "warning"
+          },
+          {
+            "label": "MSSQL",
+            "color": "grey"
+          }
+        ]
+      }
+    ],
+    "hobby": [
+      {
+        "role": "Game Programmer",
+        "company": "",
+        "iconPath": "icons/unity-icon.png",
+        "date": "2015-06-01",
+        "jobs": [
+          "Entwickeln eines \"Videospiels\" aus Spaß am Lernen (Operation Kryo)"
+        ],
+        "tags": [
+          {
+            "label": "Unity3D",
+            "color": "black"
+          },
+          {
+            "label": "C#",
+            "color": "success"
+          }
+        ]
+      },
+      {
+        "role": "Lead Developer",
+        "company": "School",
+        "iconPath": "icons/unity-icon.png",
+        "date": "2013-06-01",
+        "jobs": [
+          "Entwickeln eines \"Videospiels\" für die schulinterne Projektwoche (Project 23)"
+        ],
+        "tags": [
+          {
+            "label": "Unity3D",
+            "color": "black"
+          },
+          {
+            "label": "C#",
+            "color": "success"
+          }
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "professional": [
+      {
+        "name": "Java",
+        "progress": 0.15
+      },
+      {
+        "name": "C# 7+",
+        "progress": 0.85
+      },
+      {
+        "name": "Visual Basic",
+        "progress": 0.4
+      },
+      {
+        "name": ".NET 3+",
+        "progress": 0.84
+      },
+      {
+        "name": "ASP.NET WebForms",
+        "progress": 0.3
+      },
+      {
+        "name": "ASP.NET MVC",
+        "progress": 0.6
+      },
+      {
+        "name": "Entity Framework 6",
+        "progress": 0.56
+      },
+      {
+        "name": ".NET Reflection",
+        "progress": 0.76
+      },
+      {
+        "name": "CSS",
+        "progress": 0.82
+      },
+      {
+        "name": "CSS3",
+        "progress": 0.23
+      },
+      {
+        "name": "LESS",
+        "progress": 0.3
+      },
+      {
+        "name": "HTML",
+        "progress": 0.84
+      },
+      {
+        "name": "HTML5",
+        "progress": 0.25
+      },
+      {
+        "name": "Javascript",
+        "progress": 0.86
+      },
+      {
+        "name": "jQuery",
+        "progress": 0.89
+      },
+      {
+        "name": "SQL",
+        "progress": 0.3
+      },
+      {
+        "name": "Electron",
+        "progress": 0.2
+      },
+      {
+        "name": "Jira (User)",
+        "progress": 0.5
+      },
+      {
+        "name": "Confluence (User)",
+        "progress": 0.55
+      },
+      {
+        "name": "Unity3D",
+        "progress": 0.79
+      },
+      {
+        "name": "Unix Terminal",
+        "progress": 0.35
+      },
+      {
+        "name": "Git",
+        "progress": 0.7
+      },
+      {
+        "name": "MacOS (User)",
+        "progress": 0.77
+      },
+      {
+        "name": "Fedora (User)",
+        "progress": 0.38
+      },
+      {
+        "name": "Windows (User)",
+        "progress": 0.9
+      }
+    ],
+    "hobby": [
+
+      {
+        "name": "Kotlin",
+        "progress": 0.35
+      },
+      {
+        "name": "C",
+        "progress": 0.03
+      },
+      {
+        "name": "C++",
+        "progress": 0.02
+      },
+      {
+        "name": "Ruby",
+        "progress": 0.05
+      },
+      {
+        "name": ".NET Core",
+        "progress": 0.84
+      },
+      {
+        "name": "ASP.NET Core MVC",
+        "progress": 0.8
+      },
+      {
+        "name": "Entity Framework 7",
+        "progress": 0.72
+      },
+      {
+        "name": "SASS",
+        "progress": 0.4
+      },
+      {
+        "name": "Vue.js",
+        "progress": 0.77
+      },
+      {
+        "name": "Ruby On Rails",
+        "progress": 0.2
+      },
+      {
+        "name": "Hardware Setup",
+        "progress": 0.76
+      }
+    ]
+  }
+}
