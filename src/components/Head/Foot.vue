@@ -4,10 +4,10 @@
       <div class="container">
         <ul>
           <li>
-            <a href="#experiences-section">Erfahrungen</a>
+            <a href="#projects-section">{{ 'labels.projects' | t }}</a>
           </li>
           <li>
-            <a href="#skills-section">Fähigkeiten</a>
+            <a href="#skills-section">{{ 'labels.skills' | t }}</a>
           </li>
         </ul>
       </div>

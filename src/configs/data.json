@@ -1,9 +1,10 @@
 {
-  "person": {
-    "fullname": "Meikel Philipp",
-    "title": "Systemanalytiker / Programmierer",
-    "description": "Ich bin ein ausgebildeter Fachinformatiker für Anwendungsentwicklung und arbeite aktuell bei der Neos IT GmbH. Ich programmiere Hauptsächlich mit dem .NET Framework in C#. Außerdem bin ich Leidenschaftlicher Gamer."
+  "languages": {
+    "en": "English",
+    "de": "Deutsch"
   },
+  "contact": "meikel.spam+meikellp.de@gmail.com",
+  "sourceRepo": "https://github.com/MeikelLP/meikellp.de",
   "socials": [
     {
       "name": "Twitter",
@@ -46,251 +47,307 @@
       ]
     }
   ],
+  "tags": {
+    "MVC5": "black",
+    "WebForms": "danger",
+    "C#": "success",
+    "Java FX": "warning",
+    "MSSQL": "grey",
+    "Unity3D": "black"
+  },
+  "companies": {
+    "velian GmbH": {
+      "icon": "icons/velian-icon.png"
+    },
+    "Neos IT GmbH": {
+      "icon": "icons/neos-it-icon.png"
+    },
+    "4Aces Tech GmbH": {
+      "icon": "icons/4aces-icon.png"
+    },
+    "Global Game Jam": {
+      "icon": "icons/ggj-icon.png"
+    },
+    "": {
+      "icon": "icons/unity-icon.png"
+    }
+  },
   "events": {
     "professional": [
       {
-        "role": "Systemanalytiker",
-        "company": "Neos IT GmbH",
-        "iconPath": "icons/neos-it-icon.png",
-        "date": "2018-08-01",
+        "role": "roles.systemAnalyst",
+        "company": "4Aces Tech GmbH",
+        "from": "2020-01",
+        "to": "today",
         "jobs": [
-          "Entwickeln einer Simulationsvisualisierung in Unity3D im Bereich Automotive"
+          "jobs.4aces1"
         ],
-        "tags": [
-          {
-            "label": "Unity3D",
-            "color": "black"
-          },
-          {
-            "label": "C#",
-            "color": "success"
-          }
-        ]
+        "tags": ["MVC5", "WebForms", "C#", "Oracle SQL"],
+        "ref": "https://4aces-tech.de"
       },
       {
-        "role": "Auszubildener (Fachinformatiker Anwendungsentwicklung)",
-        "company": "velian GmbH",
-        "iconPath": "icons/velian-icon.png",
-        "date": "2015-07-01",
+        "role": "roles.systemAnalyst",
+        "company": "Neos IT GmbH",
+        "from": "2019-09",
+        "to": "2019-12",
         "jobs": [
-          "Entwickeln einer Enterprise Softwarelösung zum Verfolgen von Fehlern (Issue Tracker)",
-          "Warten einer legacy Issue Tracker Software",
-          "Entwickeln einer spezalisierten Excel Viewer Software"
+          "jobs.neos2"
         ],
-        "tags": [
-          {
-            "label": "MVC5",
-            "color": "black"
-          },
-          {
-            "label": "WebForms",
-            "color": "danger"
-          },
-          {
-            "label": "C#",
-            "color": "success"
-          },
-          {
-            "label": "Java FX",
-            "color": "warning"
-          },
-          {
-            "label": "MSSQL",
-            "color": "grey"
-          }
-        ]
+        "tags": ["MVC5", "WebForms", "C#", "Oracle SQL"],
+        "ref": "https://neos-it.de"
+      },
+      {
+        "role": "roles.systemAnalyst",
+        "company": "Neos IT GmbH",
+        "from": "2018-08",
+        "to": "2019-07",
+        "jobs": [
+          "jobs.neos1"
+        ],
+        "tags": ["Unity3D", "C#"],
+        "ref": "https://neos-it.de"
+      },
+      {
+        "role": "roles.apprentice",
+        "company": "velian GmbH",
+        "from": "2015-07",
+        "to": "2018-06",
+        "jobs": [
+          "jobs.velian1",
+          "jobs.velian2",
+          "jobs.velian3"
+        ],
+        "tags": ["MVC5", "WebForms", "C#", "Java FX", "MSSQL"],
+        "ref": "https://velian.de"
       }
     ],
     "hobby": [
       {
-        "role": "Game Programmer",
+        "role": "roles.gameProgrammer",
         "company": "",
-        "iconPath": "icons/unity-icon.png",
-        "date": "2015-06-01",
+        "from": "2015-06",
+        "to": "2015-06",
         "jobs": [
-          "Entwickeln eines \"Videospiels\" aus Spaß am Lernen (Operation Kryo)"
+          "jobs.kryo"
         ],
-        "tags": [
-          {
-            "label": "Unity3D",
-            "color": "black"
-          },
-          {
-            "label": "C#",
-            "color": "success"
-          }
-        ]
+        "tags": ["Unity3D", "C#"],
+        "ref": "https://github.com/meikellp/operationkryo"
       },
       {
-        "role": "Lead Developer",
-        "company": "School",
-        "iconPath": "icons/unity-icon.png",
-        "date": "2013-06-01",
+        "role": "roles.leadDeveloper",
+        "company": "",
+        "from": "2013-06",
+        "to": "2013-06",
         "jobs": [
-          "Entwickeln eines \"Videospiels\" für die schulinterne Projektwoche (Project 23)"
+          "jobs.ohg"
         ],
-        "tags": [
-          {
-            "label": "Unity3D",
-            "color": "black"
-          },
-          {
-            "label": "C#",
-            "color": "success"
-          }
-        ]
+        "tags": ["Unity3D", "C#"],
+        "refs": ""
+      },
+      {
+        "role": "roles.gameProgrammer",
+        "company": "Global Game Jam",
+        "from": "2019-01",
+        "to": "2019-01",
+        "jobs": [
+          "jobs.ggj2019"
+        ],
+        "tags": ["Unity3D", "C#"],
+        "ref": "https://globalgamejam.org/2019/games/home-invasion-1"
+      },
+      {
+        "role": "roles.gameProgrammer",
+        "company": "Global Game Jam",
+        "from": "2020-01",
+        "to": "2020-01",
+        "jobs": [
+          "jobs.ggj2020"
+        ],
+        "tags": ["Unity3D", "C#"],
+        "ref": "https://globalgamejam.org/2020/games/phone-repair-simulator-0"
       }
     ]
   },
-  "skills": {
-    "professional": [
-      {
-        "name": "Java",
-        "progress": 0.15
-      },
-      {
-        "name": "C# 7+",
-        "progress": 0.85
-      },
-      {
-        "name": "Visual Basic",
-        "progress": 0.4
-      },
-      {
-        "name": ".NET 3+",
-        "progress": 0.84
-      },
-      {
-        "name": "ASP.NET WebForms",
-        "progress": 0.3
-      },
-      {
-        "name": "ASP.NET MVC",
-        "progress": 0.6
-      },
-      {
-        "name": "Entity Framework 6",
-        "progress": 0.56
-      },
-      {
-        "name": ".NET Reflection",
-        "progress": 0.76
-      },
-      {
-        "name": "CSS",
-        "progress": 0.82
-      },
-      {
-        "name": "CSS3",
-        "progress": 0.23
-      },
-      {
-        "name": "LESS",
-        "progress": 0.3
-      },
-      {
-        "name": "HTML",
-        "progress": 0.84
-      },
-      {
-        "name": "HTML5",
-        "progress": 0.25
-      },
-      {
-        "name": "Javascript",
-        "progress": 0.86
-      },
-      {
-        "name": "jQuery",
-        "progress": 0.89
-      },
-      {
-        "name": "SQL",
-        "progress": 0.3
-      },
-      {
-        "name": "Electron",
-        "progress": 0.2
-      },
-      {
-        "name": "Jira (User)",
-        "progress": 0.5
-      },
-      {
-        "name": "Confluence (User)",
-        "progress": 0.55
-      },
-      {
-        "name": "Unity3D",
-        "progress": 0.79
-      },
-      {
-        "name": "Unix Terminal",
-        "progress": 0.35
-      },
-      {
-        "name": "Git",
-        "progress": 0.7
-      },
-      {
-        "name": "MacOS (User)",
-        "progress": 0.77
-      },
-      {
-        "name": "Fedora (User)",
-        "progress": 0.38
-      },
-      {
-        "name": "Windows (User)",
-        "progress": 0.9
-      }
-    ],
-    "hobby": [
-
-      {
-        "name": "Kotlin",
-        "progress": 0.35
-      },
-      {
-        "name": "C",
-        "progress": 0.03
-      },
-      {
-        "name": "C++",
-        "progress": 0.02
-      },
-      {
-        "name": "Ruby",
-        "progress": 0.05
-      },
-      {
-        "name": ".NET Core",
-        "progress": 0.84
-      },
-      {
-        "name": "ASP.NET Core MVC",
-        "progress": 0.8
-      },
-      {
-        "name": "Entity Framework 7",
-        "progress": 0.72
-      },
-      {
-        "name": "SASS",
-        "progress": 0.4
-      },
-      {
-        "name": "Vue.js",
-        "progress": 0.77
-      },
-      {
-        "name": "Ruby On Rails",
-        "progress": 0.2
-      },
-      {
-        "name": "Hardware Setup",
-        "progress": 0.76
-      }
-    ]
-  }
+  "skills": [
+    {
+      "name": "Java",
+      "progress": 0.15,
+      "professional": true
+    },
+    {
+      "name": "C# 7+",
+      "progress": 0.85,
+      "professional": true
+    },
+    {
+      "name": "Visual Basic",
+      "progress": 0.4,
+      "professional": true
+    },
+    {
+      "name": ".NET 3+",
+      "progress": 0.84,
+      "professional": true
+    },
+    {
+      "name": "ASP.NET WebForms",
+      "progress": 0.3,
+      "professional": true
+    },
+    {
+      "name": "ASP.NET MVC",
+      "progress": 0.6,
+      "professional": true
+    },
+    {
+      "name": "Entity Framework 6",
+      "progress": 0.56,
+      "professional": true
+    },
+    {
+      "name": ".NET Reflection",
+      "progress": 0.76,
+      "professional": true
+    },
+    {
+      "name": "CSS",
+      "progress": 0.82,
+      "professional": true
+    },
+    {
+      "name": "CSS3",
+      "progress": 0.23,
+      "professional": true
+    },
+    {
+      "name": "LESS",
+      "progress": 0.3,
+      "professional": true
+    },
+    {
+      "name": "HTML",
+      "progress": 0.84,
+      "professional": true
+    },
+    {
+      "name": "HTML5",
+      "progress": 0.25,
+      "professional": true
+    },
+    {
+      "name": "Javascript",
+      "progress": 0.86,
+      "professional": true
+    },
+    {
+      "name": "jQuery",
+      "progress": 0.89,
+      "professional": true
+    },
+    {
+      "name": "SQL",
+      "progress": 0.3,
+      "professional": true
+    },
+    {
+      "name": "Electron",
+      "progress": 0.2,
+      "professional": true
+    },
+    {
+      "name": "Jira (User)",
+      "progress": 0.5,
+      "professional": true
+    },
+    {
+      "name": "Confluence (User)",
+      "progress": 0.55,
+      "professional": true
+    },
+    {
+      "name": "Unity3D",
+      "progress": 0.79,
+      "professional": true
+    },
+    {
+      "name": "Unix Terminal",
+      "progress": 0.35,
+      "professional": true
+    },
+    {
+      "name": "Git",
+      "progress": 0.7,
+      "professional": true
+    },
+    {
+      "name": "MacOS (User)",
+      "progress": 0.77,
+      "professional": true
+    },
+    {
+      "name": "Fedora (User)",
+      "progress": 0.38,
+      "professional": true
+    },
+    {
+      "name": "Windows (User)",
+      "progress": 0.9,
+      "professional": true
+    },
+    {
+      "name": "Kotlin",
+      "progress": 0.35,
+      "professional": false
+    },
+    {
+      "name": "C",
+      "progress": 0.03,
+      "professional": false
+    },
+    {
+      "name": "C++",
+      "progress": 0.02,
+      "professional": false
+    },
+    {
+      "name": "Ruby",
+      "progress": 0.05,
+      "professional": false
+    },
+    {
+      "name": ".NET Core",
+      "progress": 0.84,
+      "professional": false
+    },
+    {
+      "name": "ASP.NET Core MVC",
+      "progress": 0.8,
+      "professional": false
+    },
+    {
+      "name": "Entity Framework 7",
+      "progress": 0.72,
+      "professional": false
+    },
+    {
+      "name": "SASS",
+      "progress": 0.4,
+      "professional": false
+    },
+    {
+      "name": "Vue.js",
+      "progress": 0.77,
+      "professional": false
+    },
+    {
+      "name": "Ruby On Rails",
+      "progress": 0.2,
+      "professional": false
+    },
+    {
+      "name": "Hardware Setup",
+      "progress": 0.76,
+      "professional": false
+    }
+  ]
 }

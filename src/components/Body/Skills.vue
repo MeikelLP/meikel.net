@@ -1,11 +1,14 @@
 <template>
   <section id="skills-section" class="section">
 
-    <h4 class="title is-4">Professionelle Fertigkeiten</h4>
-    <skill :skill="skill" v-for="skill in skills.professional" :key="skill.name"></skill>
-
-    <h4 class="title is-4">Hobby Fertigkeiten</h4>
-    <skill :skill="skill" v-for="skill in skills.hobby" :key="skill.name"></skill>
+    <h4 class="title is-4">
+      {{ 'labels.skills' | t }}
+      <small class="tags">
+        <span class="tag is-hoverable" :class="{'is-primary': showProfessional}" @click="showProfessional=!showProfessional">{{ 'labels.professionalSkills' | t }}</span>
+        <span class="tag is-hoverable" :class="{'is-secondary': showHobby}" @click="showHobby=!showHobby">{{ 'labels.hobbySkills' | t }}</span>
+      </small>
+    </h4>
+    <skill :skill="skill" v-for="skill in skills" :key="skill.name"></skill>
 
   </section>
 </template>
@@ -20,8 +23,22 @@ export default {
   },
   data () {
     return {
-      skills: skills
+      showProfessional: true,
+      showHobby: true
+    }
+  },
+  computed: {
+    skills () {
+      return keySort(skills.filter(x => x.professional ? this.showProfessional : this.showHobby), 'name', false)
     }
   }
+}
+
+function keySort (arr, key, desc) {
+  arr.sort((a, b) => {
+    var result = desc ? (a[key] < b[key]) : (a[key] > b[key])
+    return result ? 1 : -1
+  })
+  return arr
 }
 </script>

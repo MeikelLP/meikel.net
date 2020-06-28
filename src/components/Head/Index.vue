@@ -13,6 +13,6 @@ import HeadBody from './Body'
 import HeadFoot from './Foot'
 
 export default {
-  components: {HeadInfo, HeadBody, HeadFoot}
+  components: { HeadInfo, HeadBody, HeadFoot }
 }
 </script>

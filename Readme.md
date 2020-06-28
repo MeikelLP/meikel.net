@@ -2,25 +2,24 @@
 
 ## Introduction
 
-This package includes the source code of the website https://meikellp.de/
+Source code of [my personal website](https://meikellp.de/)
 
 ## Requirements
 
 * Node.js
-* [Yarn](https://yarnpkg.com/)
 
 ## Getting started
 
 ### Start dev server
 
-``` bash
-yarn
-yarn serve
+```bash
+npm install
+npm run serve
 ```
 
 ### Build from source
 
-``` bash
-yarn
-yarn build
+```bash
+npm install
+npm run build
 ```

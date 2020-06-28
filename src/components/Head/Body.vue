@@ -3,13 +3,13 @@
     <div class="container has-text-centered">
       <img class="profile-image" src="../../../public/profile-image.jpg" alt="">
       <p class="title">
-        {{ person.fullName }}
+        {{ 'person.fullName' | t}}
       </p>
       <p class="subtitle">
-        {{ person.title }}
+        {{ 'person.title' | t }}
       </p>
       <p>
-        {{ person.description }}
+        {{ 'person.description' | t }}
       </p>
     </div>
   </div>

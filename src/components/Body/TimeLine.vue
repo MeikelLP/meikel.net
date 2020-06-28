@@ -1,22 +1,22 @@
 <template>
-  <section id="experiences-section" class="section">
+  <section id="projects-section" class="section">
     <div class="columns">
       <div class="column">
-        <h4 class="title is-4">Professionelle Arbeitserfahrung</h4>
+        <h4 class="title is-4">{{ 'labels.professionalProjects' | t }}</h4>
         <div class="timeline">
           <div class="timeline-header">
-            <span class="tag is-medium is-primary">Heute</span>
+            <span class="tag is-medium is-primary">{{ 'labels.today' | t }}</span>
           </div>
-          <event :event="event" v-for="event in events.professional" :key="event.date"/>
+          <event :event="event" v-for="event in professional" :key="event.from"/>
         </div>
       </div>
       <div class="column">
-        <h4 class="title is-4">Hobby Erfahrung</h4>
+        <h4 class="title is-4">{{ 'labels.hobbyProjects' | t }}</h4>
         <div class="timeline">
           <div class="timeline-header">
-            <span class="tag is-medium is-primary">Heute</span>
+            <span class="tag is-medium is-primary">{{ 'labels.today' | t }}</span>
           </div>
-          <event :event="event" v-for="event in events.hobby" :key="event.date"/>
+          <event :event="event" v-for="event in hobby" :key="event.from"/>
         </div>
       </div>
     </div>
@@ -34,6 +34,21 @@ export default {
   data () {
     return {
       events: events
+    }
+  },
+  methods: {
+    sortDesc (eventArr) {
+      return eventArr.sort((a, b) => {
+        return new Date(a.from) > new Date(b.from) ? -1 : 1
+      })
+    }
+  },
+  computed: {
+    professional () {
+      return this.sortDesc(this.events.professional)
+    },
+    hobby () {
+      return this.sortDesc(this.events.hobby)
     }
   }
 }

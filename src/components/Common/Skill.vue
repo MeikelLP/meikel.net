@@ -5,7 +5,7 @@
     </div>
     <div class="field-body">
       <div class="field">
-        <progress class="progress is-primary" :value="skill.progress" max="1">{{ skill.progress * 100}} %</progress>
+        <progress class="progress" :class="{'is-primary': skill.professional, 'is-secondary': !skill.professional}" :value="skill.progress" max="1">{{ skill.progress * 100}} %</progress>
       </div>
     </div>
   </div>
