@@ -176,7 +176,7 @@
     },
     {
       "name": "C# 7+",
-      "progress": 0.85,
+      "progress": 0.9,
       "professional": true
     },
     {
@@ -191,32 +191,32 @@
     },
     {
       "name": "ASP.NET WebForms",
-      "progress": 0.3,
+      "progress": 0.5,
       "professional": true
     },
     {
       "name": "ASP.NET MVC",
-      "progress": 0.6,
+      "progress": 0.7,
       "professional": true
     },
     {
       "name": "Entity Framework 6",
-      "progress": 0.56,
+      "progress": 0.6,
       "professional": true
     },
     {
       "name": ".NET Reflection",
-      "progress": 0.76,
+      "progress": 0.75,
       "professional": true
     },
     {
       "name": "CSS",
-      "progress": 0.82,
+      "progress": 0.9,
       "professional": true
     },
     {
       "name": "CSS3",
-      "progress": 0.23,
+      "progress": 0.3,
       "professional": true
     },
     {
@@ -226,67 +226,67 @@
     },
     {
       "name": "HTML",
-      "progress": 0.84,
+      "progress": 0.9,
       "professional": true
     },
     {
       "name": "HTML5",
-      "progress": 0.25,
+      "progress": 0.3,
       "professional": true
     },
     {
       "name": "Javascript",
-      "progress": 0.86,
+      "progress": 0.9,
       "professional": true
     },
     {
       "name": "jQuery",
-      "progress": 0.89,
+      "progress": 0.85,
       "professional": true
     },
     {
       "name": "SQL",
-      "progress": 0.3,
+      "progress": 0.4,
       "professional": true
     },
     {
       "name": "Electron",
       "progress": 0.2,
-      "professional": true
+      "professional": false
     },
     {
       "name": "Jira (User)",
-      "progress": 0.5,
+      "progress": 0.6,
       "professional": true
     },
     {
       "name": "Confluence (User)",
-      "progress": 0.55,
+      "progress": 0.6,
       "professional": true
     },
     {
       "name": "Unity3D",
-      "progress": 0.79,
+      "progress": 0.95,
       "professional": true
     },
     {
       "name": "Unix Terminal",
-      "progress": 0.35,
+      "progress": 0.4,
       "professional": true
     },
     {
-      "name": "Git",
-      "progress": 0.7,
+      "name": "Git (basics)",
+      "progress": 0.8,
       "professional": true
     },
     {
       "name": "MacOS (User)",
-      "progress": 0.77,
+      "progress": 0.75,
       "professional": true
     },
     {
       "name": "Fedora (User)",
-      "progress": 0.38,
+      "progress": 0.4,
       "professional": true
     },
     {
@@ -316,18 +316,18 @@
     },
     {
       "name": ".NET Core",
-      "progress": 0.84,
-      "professional": false
+      "progress": 0.9,
+      "professional": true
     },
     {
-      "name": "ASP.NET Core MVC",
+      "name": "ASP.NET Core",
       "progress": 0.8,
-      "professional": false
+      "professional": true
     },
     {
       "name": "Entity Framework 7",
-      "progress": 0.72,
-      "professional": false
+      "progress": 0.7,
+      "professional": true
     },
     {
       "name": "SASS",
@@ -336,7 +336,7 @@
     },
     {
       "name": "Vue.js",
-      "progress": 0.77,
+      "progress": 0.8,
       "professional": false
     },
     {
@@ -346,7 +346,22 @@
     },
     {
       "name": "Hardware Setup",
-      "progress": 0.76,
+      "progress": 0.8,
+      "professional": false
+    },
+    {
+      "name": "Godot",
+      "progress": 0.1,
+      "professional": false
+    },
+    {
+      "name": "Unreal",
+      "progress": 0.05,
+      "professional": false
+    },
+    {
+      "name": "CryEngine",
+      "progress": 0.05,
       "professional": false
     }
   ]
