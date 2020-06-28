@@ -6,7 +6,7 @@
         The <a :href="sourceRepo">source code</a> is licensed under <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
       </p>
 
-      <p>All assets of companies belong the them respectively</p>
+      <p>All assets of companies belong to them respectively</p>
 
       <a href="https://bulma.io">
         <img src="https://bulma.io/images/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
