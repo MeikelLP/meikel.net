@@ -2,7 +2,7 @@
   <footer class="footer">
     <div class="content has-text-centered">
       <p>
-        <strong>website</strong> by <a :href="`mailto:${contact}`">Meikel Philipp</a>.
+        <strong>Website</strong> by <a :href="`mailto:${contact}`">Meikel Philipp</a>.
         The <a :href="sourceRepo">source code</a> is licensed under <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
       </p>
 
