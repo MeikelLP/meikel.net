@@ -19,8 +19,8 @@ roles:
   leadDeveloper: Lead Developer
 jobs:
   neos1: Development of a simulation application in Unity3D for an automotive company
-  neos2: Integrating of an React application in a legacy MVC5 application
-  4aces1: Integrating of an React application in a legacy MVC5 application
+  neos2: Integrating a React application in a legacy MVC5 application
+  4aces1: Integrating a React application in a legacy MVC5 application
   velian1: Development of an enterprise tailored issue tracker
   velian2: Maintenance of an custom enterprise issue tracker
   velian3: Development of an Excel-like software for a customer
