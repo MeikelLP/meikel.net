@@ -1,12 +1,12 @@
 person:
   fullname: Meikel Philipp
   title: Systemanalytiker / Programmierer
-  description: Ich bin ein ausgebildeter Fachinformatiker für Anwendungsentwicklung und arbeite aktuell bei der 4Aces Tech GmbH. Ich programmiere hauptsächlich in .NET (Framework/Core) in C#. Außerdem bin ich leidenschaftlicher Gamer.
+  description: Ich bin ein ausgebildeter Fachinformatiker für Anwendungsentwicklung und arbeite aktuell bei der 4ACES Tech GmbH. Ich programmiere hauptsächlich in .NET (Framework/Core) in C#. Neben ein paar Webanwendungen in ASP versuche ich mich auf Unity3D Projekte zu fokussieren (besonders Performance Optimierung und Architektur). Außerdem bin ich leidenschaftlicher Gamer.
 labels:
   professionalSkills: Professionelle Fertigkeiten
-  hobbySkills: Hobby Fertigkeiten
+  hobbySkills: Nonkommerzielle Fertigkeiten
   professionalProjects: Professionelle Projekte
-  hobbyProjects: Hobby Projekte
+  hobbyProjects: Nonkommerzielle Projekte
   today: Heute
   projects: Projekte
   skills: Fertigkeiten
@@ -22,7 +22,7 @@ jobs:
   velian1: Entwickeln einer Enterprise Softwarelösung zum Verfolgen von Fehlern (Issue Tracker)
   velian2: Warten einer legacy Issue Tracker Software
   velian3: Entwickeln einer spezalisierten Excel Viewer Software
-  kryo: Entwickeln eines Videospiels aus Spaß am Lernen (Operation Kryo)
-  ohg: Entwickeln eines Videospiels für die schulinterne Projektwoche (Project 23)
+  kryo: Entwickeln eines Videospiels (Operation Kryo)
+  ohg: Entwickeln eines Videospiels für eine schulinterne Projektwoche (Project 23)
   ggj2019: Entwickeln eines "Home Defense" Spiels
   ggj2020: Entwickeln eines "Handy Reperatur Simulators"

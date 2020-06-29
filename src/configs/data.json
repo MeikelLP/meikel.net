@@ -76,7 +76,7 @@
     "professional": [
       {
         "role": "roles.systemAnalyst",
-        "company": "4Aces Tech GmbH",
+        "company": "4ACES Tech GmbH",
         "from": "2020-01",
         "to": "today",
         "jobs": [
@@ -210,13 +210,8 @@
       "professional": true
     },
     {
-      "name": "CSS",
-      "progress": 0.9,
-      "professional": true
-    },
-    {
       "name": "CSS3",
-      "progress": 0.3,
+      "progress": 0.7,
       "professional": true
     },
     {
@@ -225,13 +220,8 @@
       "professional": true
     },
     {
-      "name": "HTML",
-      "progress": 0.9,
-      "professional": true
-    },
-    {
       "name": "HTML5",
-      "progress": 0.3,
+      "progress": 0.7,
       "professional": true
     },
     {
@@ -270,6 +260,21 @@
       "professional": true
     },
     {
+      "name": "Unity3D - Performance optimization",
+      "progress": 0.8,
+      "professional": true
+    },
+    {
+      "name": "Unity3D - Architecture",
+      "progress": 0.7,
+      "professional": true
+    },
+    {
+      "name": "Unity3D - Asset Management",
+      "progress": 0.5,
+      "professional": true
+    },
+    {
       "name": "Unix Terminal",
       "progress": 0.4,
       "professional": true
@@ -297,16 +302,6 @@
     {
       "name": "Kotlin",
       "progress": 0.35,
-      "professional": false
-    },
-    {
-      "name": "C",
-      "progress": 0.03,
-      "professional": false
-    },
-    {
-      "name": "C++",
-      "progress": 0.02,
       "professional": false
     },
     {

@@ -1,12 +1,12 @@
 person:
   fullname: Meikel Philipp
   title: Software Engineer / Programmer
-  description: I'm a trained and certified programmer from Germany currently working for 4Aces Tech GmbH. I program extensively in .NET (Framework/Core) in C#. Additionally I'm a passionate gamer.
+  description: I'm a trained and certified programmer from Germany currently working for 4ACES Tech GmbH. I program extensively in .NET (Framework/Core) in C#. Besides from some Web Applications in ASP I try to focus on Unity3D related projects especially performance optimization and architecture. Additionally I'm a passionate gamer.
 labels:
   professionalSkills: Professional skills
-  hobbySkills: Hobby skills
+  hobbySkills: Non-commercial skills
   professionalProjects: Professional projects
-  hobbyProjects: Hobby projects
+  hobbyProjects: Non-commercial projects
   today: Today
   projects: Projects
   skills: Skills
@@ -22,7 +22,7 @@ jobs:
   velian1: Development of an enterprise tailored issue tracker
   velian2: Maintenance of an custom enterprise issue tracker
   velian3: Development of an Excel-like software for a customer
-  kryo: Development of a video game skeleton out of fun (Operation Kryo)
-  ohg: Development of a video game about our school in one week (Project 23)
+  kryo: Development of a video game skeleton (Operation Kryo)
+  ohg: Development of a video game in one week (Project 23)
   ggj2019: Development of a "Home Defense" game
   ggj2020: Development of "Phone Repair Simulator"
