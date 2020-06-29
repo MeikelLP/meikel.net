@@ -1,15 +1,17 @@
 person:
   fullname: Meikel Philipp
   title: Systemanalytiker / Programmierer
-  description: Ich bin ein ausgebildeter Fachinformatiker für Anwendungsentwicklung und arbeite aktuell bei der 4ACES Tech GmbH. Ich programmiere hauptsächlich in .NET (Framework/Core) in C#. Neben ein paar Webanwendungen in ASP versuche ich mich auf Unity3D Projekte zu fokussieren (besonders Performance Optimierung und Architektur). Außerdem bin ich leidenschaftlicher Gamer.
+  description: Ich bin ein ausgebildeter Fachinformatiker für Anwendungsentwicklung und arbeite aktuell bei der 4ACES Tech GmbH. Ich programmiere hauptsächlich in .NET (Framework/Core) in C#. Ich fokussiere mich auf Unity3D Projekte (besonders Performance Optimierung und Architektur). Weitergend habe ich viel Erfahrung bei Webanwendungen in ASP. Außerdem bin ich leidenschaftlicher Gamer.
 labels:
-  professionalSkills: Professionelle Fertigkeiten
+  professionalSkills: Kommerzielle Fertigkeiten
   hobbySkills: Nonkommerzielle Fertigkeiten
-  professionalProjects: Professionelle Projekte
+  professionalProjects: Kommerzielle Projekte
   hobbyProjects: Nonkommerzielle Projekte
   today: Heute
   projects: Projekte
   skills: Fertigkeiten
+  generalSkills: Allgemeine Fertigkeiten
+  unitySkills: Unity spezifische Fertigkeiten
 roles:
   systemAnalyst: Systemanalytiker
   apprentice: Auszubildener (Fachinformatiker Anwendungsentwicklung)

@@ -1,15 +1,17 @@
 person:
   fullname: Meikel Philipp
   title: Software Engineer / Programmer
-  description: I'm a trained and certified programmer from Germany currently working for 4ACES Tech GmbH. I program extensively in .NET (Framework/Core) in C#. Besides from some Web Applications in ASP I try to focus on Unity3D related projects especially performance optimization and architecture. Additionally I'm a passionate gamer.
+  description: I'm a trained and certified programmer from Germany currently working for 4ACES Tech GmbH. I program extensively in .NET (Framework/Core) in C#. I focus on Unity3D related projects especially performance optimization and architecture. I also have good knowledge of web applications in ASP. Additionally I'm a passionate gamer.
 labels:
-  professionalSkills: Professional skills
+  professionalSkills: Commercial skills
   hobbySkills: Non-commercial skills
-  professionalProjects: Professional projects
+  professionalProjects: Commercial projects
   hobbyProjects: Non-commercial projects
   today: Today
   projects: Projects
   skills: Skills
+  generalSkills: Common skills
+  unitySkills: Unity specific skills
 roles:
   systemAnalyst: Software Engineer
   apprentice: Apprentice (Programmer)

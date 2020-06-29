@@ -255,24 +255,28 @@
       "professional": true
     },
     {
-      "name": "Unity3D",
+      "name": "General",
       "progress": 0.95,
-      "professional": true
+      "professional": true,
+      "category": "unity"
     },
     {
-      "name": "Unity3D - Performance optimization",
+      "name": "Performance optimization",
       "progress": 0.8,
-      "professional": true
+      "professional": true,
+      "category": "unity"
     },
     {
-      "name": "Unity3D - Architecture",
+      "name": "Architecture",
       "progress": 0.7,
-      "professional": true
+      "professional": true,
+      "category": "unity"
     },
     {
-      "name": "Unity3D - Asset Management",
+      "name": "Asset Management",
       "progress": 0.5,
-      "professional": true
+      "professional": true,
+      "category": "unity"
     },
     {
       "name": "Unix Terminal",
