@@ -4,6 +4,7 @@
       <p>
         <strong>Website</strong> by <a :href="`mailto:${contact}`">Meikel Philipp</a>.
         The <a :href="sourceRepo">source code</a> is licensed under <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
+        <small>Version {{version}}</small>
       </p>
 
       <p>All assets of companies belong to them respectively</p>
@@ -17,11 +18,13 @@
 
 <script>
 import { contact, sourceRepo } from '../configs/data'
+const version = process.env.VUE_APP_GIT_VERSION
 
 export default {
   name: 'Foot',
   data () {
     return {
+      version,
       contact,
       sourceRepo
     }
